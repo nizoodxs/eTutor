@@ -1,0 +1,3 @@
+full access for etutor database only
+username = nizoodxs
+password = nischal12345

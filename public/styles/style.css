@@ -1,0 +1,118 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+
+html { 
+	height: 100%;
+	width: 100%; 
+	}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  background: #FFFFFF;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; 
+	}
+
+img {
+ border: none; 
+	}
+
+table, tr, td, tr {
+  border-collapse: collapse; 
+  vertical-align: top; 
+  text-align: left;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; 
+		}
+
+a {
+ color: #8D0D19;
+	}
+
+#header { 
+	/*height: 70px; */
+	text-align: left; 
+	background: #1A446C; 
+	color: #EEE4B9; 
+	}
+
+#header h1 { 
+	padding: 1em;
+	margin: 0;
+	 }
+
+/* Note: IE 5 & 6 won't understand min-height */
+#main { 
+	min-height: 700px; 
+	width: 100%; 
+	/*background: #EEE4B9; */
+	padding: 2em;
+	}
+
+#footer { 
+	/*height: 2em; */
+	padding: 1em; 
+	bottom : 0px;
+	width: 100%;
+	text-align: center; 
+  	background: #1A446C;  
+  	/*color: #D4E6F4; */
+  	color: #999; 
+  	}
+
+ * html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+.container{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#video{
+	float: left;
+	margin-left: 100px;
+}
+
+#pagination{
+	clear: both;
+	margin-left: 630px;
+}
+
+#container .selected{
+	font-weight: bold;
+	color: #8D0D19;
+}
+
+#chapter_form{
+	margin: 20px;
+}
+
+ body{ margin-top:50px;}
+.nav-tabs .glyphicon:not(.no-margin) { margin-right:10px; }
+.tab-pane .list-group-item:first-child {border-top-right-radius: 0px;border-top-left-radius: 0px;}
+.tab-pane .list-group-item:last-child {border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
+.tab-pane .list-group .checkbox { display: inline-block;margin: 0px; }
+.tab-pane .list-group input[type="checkbox"]{ margin-top: 2px; }
+.tab-pane .list-group .glyphicon { margin-right:5px; }
+.tab-pane .list-group .glyphicon:hover { color:#FFBC00; }
+a.list-group-item.read { color: #222;background-color: #F3F3F3; }
+hr { margin-top: 5px;margin-bottom: 10px; }
+.nav-pills>li>a {padding: 5px 10px;}
+
+.ad { padding: 5px;background: #F5F5F5;color: #222;font-size: 80%;border: 1px solid #E5E5E5; }
+.ad a.title {color: #15C;text-decoration: none;font-weight: bold;font-size: 110%;}
+.ad a.url {color: #093;text-decoration: none;}
+
+
+table.bordered tr th, table.bordered tr td {
+ border: 1px solid #000000; 
+}
