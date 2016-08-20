@@ -14,6 +14,8 @@ if (!$session->is_logged_in()){ redirect_to("login.php"); }
 ?>
 
  <?php include_layout_template('header.php'); ?>
+ <hr />
+ <br />
 
 <?php 
 	$msg = $session->message();

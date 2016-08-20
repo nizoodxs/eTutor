@@ -14,6 +14,9 @@ $course_array = Course::find_by_category($category);
  ?>
 
 <?php include_layout_template('header.php'); ?>
+  <hr />
+  <hr />
+ <br />
 
 
 <?php foreach ($course_array as $course): ?>

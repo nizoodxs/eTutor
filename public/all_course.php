@@ -30,7 +30,9 @@ foreach ($usercourses as $usercourse) {
 
 
 <?php include_layout_template('header.php'); ?>
-
+ <hr />
+ <hr />
+ <br />
 
 
 

@@ -9,25 +9,46 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>eTutor</title>
   
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <!-- FONT AWESOME CSS -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- FLEXSLIDER CSS -->
+  <link href="assets/css/flexslider.css" rel="stylesheet" />
+  <!-- CUSTOM STYLE CSS -->
+  <link href="assets/css/style.css" rel="stylesheet" />    
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />    
-    <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />    
+  <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
   <link href="assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
-    <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
   <link href="css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fullcalendar.css">
   <link href="css/widgets.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet" />
   <link href="css/xcharts.min.css" rel=" stylesheet"> 
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
 
-<!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!--  Jquery Core Script -->
+  <script src="assets/js/jquery-1.10.2.js" async></script>
+  <!--  Core Bootstrap Script -->
+  <script src="assets/js/bootstrap.js" async></script>
+  <!--  Flexslider Scripts --> 
+  <script src="assets/js/jquery.flexslider.js" async></script>
+  <!--  Scrolling Reveal Script -->
+  <script src="assets/js/scrollReveal.js" async></script>
+  <!--  Scroll Scripts --> 
+  <script src="assets/js/jquery.easing.min.js" async></script>
+  <!--  Custom Scripts --> 
+  <script src="assets/js/custom.js" async></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
   <script src="js/jquery.js" async></script>
   <script src="js/jquery-ui-1.10.4.min.js" async></script>
   <script src="js/jquery-1.8.3.min.js" async></script>
@@ -160,6 +181,3 @@
       </header>
       <!--header end-->
   </section>
-  <hr />
-  <hr />
- <br />

@@ -44,7 +44,8 @@
 
 
 <?php include_layout_template('header.php'); ?>
-
+ <hr />
+ <br />
 
 <div class="row">
 	<div class="col-sm-3">
